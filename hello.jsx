@@ -5,7 +5,7 @@ export default React.createClass({
     return (
       <div>
         <h1>Hello, {this.props.name}!</h1>
-        <p>Welcome to the Webpack/ES6!</p>
+        <p><strong>Welcome to the Webpack/ES6!</strong></p>
         <p>{Greeter.check('alex', 'egorov')}</p>
       </div>
     )
