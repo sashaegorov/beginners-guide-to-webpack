@@ -1,14 +1,14 @@
 module.exports = {
-  entry: "./app.js",
+  entry: './app.es6',
   output: {
-    filename: "bundle.js"
+    filename: './bundle.js'
   },
   module: {
     preLoaders: [
       {
-        test: /\.js$/,
+        test: /\.es6$/,
         exclude: /node_modules/,
-        loader: 'jshint-loader'
+        loader: 'eslint-loader'
       }
     ],
     loaders: [
@@ -23,6 +23,7 @@ module.exports = {
     ]
   },
   resolve: {
+    // Used to resolve extensions in `require`
     extensions: ['', '.js', '.es6']
   },
   // Doesn't work anymore
