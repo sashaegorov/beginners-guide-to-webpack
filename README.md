@@ -6,3 +6,4 @@ Following [story](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a36
 
 - Install WebPack `npm install webpack -g`
 - Create bundle `webpack ./app.js bundle.js`
+- After `webpack.config.js` created it's possible to simply run `webpack`
