@@ -1,0 +1,24 @@
+{
+  "name": "beginners-guide-to-webpack",
+  "version": "0.0.1",
+  "description": "Beginners guide to Webpack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashaegorov/beginners-guide-to-webpack.git"
+  },
+  "keywords": [
+    "beginners",
+    "guide",
+    "webpack"
+  ],
+  "author": "Alexander Egorov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sashaegorov/beginners-guide-to-webpack/issues"
+  },
+  "homepage": "https://github.com/sashaegorov/beginners-guide-to-webpack#readme"
+}
