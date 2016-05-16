@@ -4,4 +4,5 @@ Following [story](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a36
 
 #### Quite short version of content
 
-Install WebPack `npm install webpack -g`
+- Install WebPack `npm install webpack -g`
+- Create bundle `webpack ./app.js bundle.js`
