@@ -19,6 +19,10 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
         }
+      },
+      {
+        test: /\.html$/,
+        loader: 'raw-loader'
       }
     ]
   },
