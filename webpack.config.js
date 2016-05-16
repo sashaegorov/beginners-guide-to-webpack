@@ -27,5 +27,5 @@ module.exports = {
     extensions: ['', '.js', '.es6']
   },
   // Doesn't work anymore
-  watch: true
+  // watch: true
 }

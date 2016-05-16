@@ -21,3 +21,4 @@ Following [story](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a36
   * **`-- save-dev`** saves these modules as development dependencies in `package.json`
 - `jshint` will warn about dangerous JavaScript in your code
 - Now it's better to use `npm start`
+- Watch is commented now, so it's possible to run ` webpack -p`
