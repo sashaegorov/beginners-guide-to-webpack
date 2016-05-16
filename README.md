@@ -19,4 +19,5 @@ Following [story](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a36
   * **`babel-preset-es2015`** is a Babel preset for all `es2015` plugins.
   * **`babel-preset-react`** is a Babel preset for all React plugins.
   * **`-- save-dev`** saves these modules as development dependencies in `package.json`
-- `jshint` will warn about dangerous JavaScript in your code 
+- `jshint` will warn about dangerous JavaScript in your code
+- Now it's better to use `npm start`
