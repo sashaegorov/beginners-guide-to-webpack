@@ -42,4 +42,13 @@ globals:
 extends:
   - eslint:recommended
   - airbnb/base
+
 parser: babel-eslint
+
+# Add React plug-in
+plugins:
+  - react
+
+parserOptions:
+  ecmaFeatures:
+    jsx: true

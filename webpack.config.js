@@ -1,31 +1,33 @@
 module.exports = {
-  entry: './app.es6',
+  entry: './app',
   output: {
     filename: './bundle.js'
   },
   module: {
     preLoaders: [
       {
-        test: /\.es6$/,
+        test: [/\.jsx?$/],
         exclude: /node_modules/,
-        loader: 'eslint-loader'
+        loader: 'eslint'
       }
     ],
     loaders: [
       {
-        test: /\.es6$/,
+        test: [/\.jsx?$/],
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        loader: 'babel',
         query: {
           presets: ['react', 'es2015']
         }
       }
     ]
   },
-  resolve: {
-    // Used to resolve extensions in `require`
-    extensions: ['', '.js', '.es6']
+  eslint: {
+    configFile: '.eslintrc.yml',
   },
-  // Doesn't work anymore
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
+  // Disable due to `webpack-dev-server`
   // watch: true
 }
