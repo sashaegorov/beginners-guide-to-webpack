@@ -28,6 +28,7 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
+  plugins: []
   // Disable due to `webpack-dev-server`
   // watch: true
 }
