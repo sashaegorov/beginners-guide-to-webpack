@@ -3,7 +3,7 @@ module.exports = {
     // console.log() omitted for production
     console.log('File `greeter.js` loaded...')
     let result
-    if (firstName !== 'alex' || lastName !== 'egorov') {
+    if (firstName !== 'alexander' || lastName !== 'egorov') {
       result = 'You\'re not Alex Egorov.'
     } else {
       result = 'You\'re Alex Egorov.'
