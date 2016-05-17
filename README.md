@@ -22,7 +22,25 @@ Following [story](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a36
   * **`node-libs-browser`** is a peer dependency of Webpack. It provides certain Node libraries for browser usage.
   * **`babel-preset-es2015`** is a Babel preset for all `es2015` plugins.
   * **`babel-preset-react`** is a Babel preset for all React plugins.
-  * **`-- save-dev`** saves these modules as development dependencies in `package.json`
+  * **`--save-dev`** saves these modules as development dependencies in `package.json`
 - `jshint` will warn about dangerous JavaScript in your code
 - Now it's better to use `npm start`
 - Watch is commented now, so it's possible to run ` webpack -p`
+
+#### Additional goodness
+- Testing with **Protractor**
+  * `npm install -g protractor`
+  * `webdriver-manager update --standalone`
+```
+selenium standalone is up to date.
+chromedriver is up to date.
+```
+  * `webdriver-manager start`
+
+```
+seleniumProcess.pid: 39581
+13:32:15.572 INFO - Launching a standalone Selenium Server
+...
+13:32:15.799 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+```
+  * `npm install -g mocha`
